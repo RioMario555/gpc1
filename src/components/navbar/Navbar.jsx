@@ -1,8 +1,10 @@
 import React from "react";
-import gpcImg from "../assets/logo.svg";
-import shopIcone from "../assets/shop.svg";
-import heartIcone from "../assets/heart.svg";
-import personIcone from "../assets/person.svg";
+import gpcImg from "../../assets/icons/logo.svg";
+import shopIcone from "../../assets/icons/shop.svg";
+import heartIcone from "../../assets/icons/heart.svg";
+import personIcone from "../../assets/icons/person.svg";
+import './Navbar.css'
+
 
 const Navbar = () => {
   return (
