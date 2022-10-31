@@ -1,26 +1,20 @@
 import React from 'react'
-import './Carousel.css'
+import './carousel.css'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
+import 'swiper/css';
+import glovo from "../../assets/images/glovo.svg";
 
 
 const Carousel = () => {
   return (
-    <div className="product">
-      <h1 className="name">პროდუქცია</h1>
-      <div className="list">
-        <div className="items-list">
-          <p>ახალი პროდუქცია</p>
-        </div>
-        <div className="items-list">
-          <p>ფასდაკლება</p>
-        </div>
-        <div className="items-list">
-          <p>პოპულარული</p>
-        </div>
-        <div className="items-list">
-          <p>აუცილებელი</p>
-        </div>
-      </div>
-    </div>
+    <>
+    <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+      <SwiperSlide><img src={glovo}/></SwiperSlide>
+      <SwiperSlide><img src={glovo}/></SwiperSlide>
+      <SwiperSlide><img src={glovo}/></SwiperSlide>
+    </Swiper>
+  </>
   )
 }
 
