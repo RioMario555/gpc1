@@ -1,9 +1,8 @@
 import React from 'react'
-import './Carousel.css'
+import './carousel.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import 'swiper/css';
-import "swiper/css/pagination";
 import glovo from "../../assets/images/glovo.svg";
 
 
