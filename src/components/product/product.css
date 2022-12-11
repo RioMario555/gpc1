@@ -1,0 +1,59 @@
+.line{
+    display: flex;
+    justify-content: space-around;
+    margin: 65px;
+}
+.background{
+    background-color: #fafafa;
+    width: 340px;
+    height: 160px;
+}
+.sale__1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.sale_1_right {
+    display: flex;
+}
+.blue{
+    color: #1db3f3;
+}
+.gray{
+    color: #707070;
+}
+.sell p{
+    width: 301px;
+    height: 30px;
+}
+.sale {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+.sale p {
+    margin: 7px;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+}
+.click{
+    width: 110px;
+    height: 40px;
+    background-color: #1db3f3;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buy{
+    width: 110px;
+    height: 40px;
+    background-color: #1db3f3;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
