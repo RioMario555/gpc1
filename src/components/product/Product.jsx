@@ -2,7 +2,7 @@ import React from 'react'
 import './product.css'
 import shampun from "../../assets/icons/shampun.svg";
 import star from "../../assets/icons/star.svg";
-// import sell from "../../assets/icons/sell.svg";
+import path from "../../assets/icons/path.svg";
 
 const Product = () => {
   return (
@@ -18,12 +18,13 @@ const Product = () => {
                 <p className="gray">(12)</p>
                 </div>
               </div>
-              <p>აღმდგენი ბალზამი-შამპუნი</p>
+              <p className='resto'>აღმდგენი ბალზამი-შამპუნი</p>
               <p className="gray">300 მლ</p>
               <div className="pass">
               <p>12.50 ლ   15.00 ლ</p>
               <div className="buy">
-
+                <img className='bag' alt='shop' src={path} />
+                <p className='buy_1'>ყიდვა</p>
               </div>
               </div>
             </div>
@@ -44,8 +45,10 @@ const Product = () => {
               <p className="gray">300 მლ</p>
               <div className="pass">
               <p>12.50 ლ   15.00 ლ</p>
-              <button className="click">
-              </button>
+              <div className="click">
+              <img className='bag' alt='shop' src={path} />
+                <p className='buy_1'>ყიდვა</p>
+              </div>
               </div>
             </div>
           </div>
@@ -64,9 +67,10 @@ const Product = () => {
               <p className="gray">300 მლ</p>
               <div className="pass">
               <p>12.50 ლ   15.00 ლ</p>
-              <button className="click">
-
-              </button>
+              <div className="click">
+              <img className='bag' alt='shop' src={path} />
+              <p className='buy_1'>ყიდვა</p>
+              </div>
               </div>
             </div>
           </div>
@@ -85,8 +89,10 @@ const Product = () => {
               <p className="gray">300 მლ</p>
               <div className="pass">
               <p>12.50 ლ   15.00 ლ</p>
-              <button className="click">
-              </button>
+              <div className="click">
+              <img className='bag' alt='shop' src={path} />
+              <p className='buy_1'>ყიდვა</p>
+              </div>
               </div>
             </div>
           </div>
