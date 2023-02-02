@@ -3,6 +3,8 @@ import Navbar from "./components/navbar/Navbar";
 import Carousel from "./components/carousel/Carousel";
 import Product from "./components/product/Product";
 import Clarin from "./components/carusel_2/Clarin";
+import Inporm from "./components/inpormation/Inporm";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Sale />
       <Product/>
       <Clarin/>
+      <Inporm/>
     </div>
   );
 }
