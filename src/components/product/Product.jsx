@@ -1,6 +1,6 @@
 import React from 'react'
 import './product.css'
-import shampun from "../../assets/icons/shampun.svg";
+import shampun from "../../assets/images/shampun.png";
 import star from "../../assets/icons/star.svg";
 import path from "../../assets/icons/path.svg";
 
@@ -19,10 +19,11 @@ const Product = () => {
                 </div>
               </div>
               <p className='resto'>აღმდგენი ბალზამი-შამპუნი</p>
-              <p className="gray">300 მლ</p>
+              <p className="gray_1">300 მლ</p>
               <div className="pass">
-              <p>12.50 ლ   15.00 ლ</p>
-              <div className="buy">
+              <p className=''>12.50 ლ </p>
+              <p className=''> 15.00 ლ</p>
+              <div className="click">
                 <img className='bag' alt='shop' src={path} />
                 <p className='buy_1'>ყიდვა</p>
               </div>
@@ -44,9 +45,10 @@ const Product = () => {
               <p>აღმდგენი ბალზამი-შამპუნი</p>
               <p className="gray">300 მლ</p>
               <div className="pass">
-              <p>12.50 ლ   15.00 ლ</p>
+              <p>12.50 ლ</p>
+              <p> 15.00 ლ</p>
               <div className="click">
-              <img className='bag' alt='shop' src={path} />
+                <img className='bag' alt='shop' src={path} />
                 <p className='buy_1'>ყიდვა</p>
               </div>
               </div>
@@ -66,7 +68,8 @@ const Product = () => {
               <p>აღმდგენი ბალზამი-შამპუნი</p>
               <p className="gray">300 მლ</p>
               <div className="pass">
-              <p>12.50 ლ   15.00 ლ</p>
+              <p>12.50 ლ</p>
+              <p> 15.00 ლ</p>
               <div className="click">
               <img className='bag' alt='shop' src={path} />
               <p className='buy_1'>ყიდვა</p>
@@ -88,7 +91,8 @@ const Product = () => {
               <p>აღმდგენი ბალზამი-შამპუნი</p>
               <p className="gray">300 მლ</p>
               <div className="pass">
-              <p>12.50 ლ   15.00 ლ</p>
+              <p>12.50 ლ</p>
+              <p> 15.00 ლ</p>
               <div className="click">
               <img className='bag' alt='shop' src={path} />
               <p className='buy_1'>ყიდვა</p>
