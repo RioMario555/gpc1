@@ -3,8 +3,8 @@ import './Clarin.css'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import Maze from "../../assets/images/maze.svg";
-import zgarbi from "../../assets/images/zgarbi.svg"
+import Maze from "../../assets/images/maze.png";
+import zgarbi from "../../assets/images/zgarbi.png"
 
 const Clarin = () => {
     return(
@@ -22,7 +22,7 @@ const Clarin = () => {
                 <h1 className="name_1">Clarins</h1>
                 <p className="procent">-30%</p>
                 <div className="bott_1">
-                    <p>შემოთავაზება</p>
+                    <p className="suggest">შემოთავაზება</p>
                 </div>
                 </div>
             </div>

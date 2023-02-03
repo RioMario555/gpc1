@@ -8,22 +8,32 @@
     height: 439px;
     /* background-color: chartreuse; */
     border-radius: 6.8546px;
-    margin-left: 150px;
+    margin-left: 140px;
     box-shadow: 6px 0 5px -4px rgba(216, 216, 216), -6px 0 22px -4px rgba(216, 216, 216, 0.8);
     display: flex;
 }
 .name_1{
-    font-size: 51px;
+    font-family: "roboto";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    text-align: right;
     color: #27242c;
 }
 .procent{
-    font-size: 40px;
+    font-family: "roboto";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    text-align: right;
     color: #03539c;
 }
-/* .Swiper img{
+.Swiper img{
     width: 639px;
     height: 396px;
-} */
+}
 .backs_1{
     width: 50%;
     height: auto;
@@ -49,6 +59,7 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    margin-left: 300px;
 }
 .bott_1{
     width: 160px;
@@ -60,11 +71,12 @@
     display: flex;
     justify-content: center;
     cursor: pointer;
+    margin-top: 240px;
 }
 .swiper-slide img{
-    width: 91%;
-    height: 100%;
+    width: 79%;
+    height: 94%;
 }
 .swiper-slide{
-    margin-top: 0px;
+    margin-top: -15px;
 }
