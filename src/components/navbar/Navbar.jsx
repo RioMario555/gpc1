@@ -8,24 +8,27 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div className="header">
-      <div className="home">
-        <img className="logo" alt="logo" src={gpcImg} />
+
+    <header>
+      <div className="header">
+        <div className="home">
+          <img className="logo" alt="logo" src={gpcImg} />
+        </div>
+        <nav className="menu">
+          <ul>
+            <li>პროდუქცია</li>
+            <li>ჩვენს შესახებ</li>
+            <li>აფთიაქები</li>
+          </ul>
+        </nav>
+        <div className="login">
+          <img className="shop" alt="shop" src={shopIcone} />
+          <img className="shop" alt="shop" src={heartIcone} />
+          <img className="person" alt="shop" src={personIcone} />
+          <p>კაბინეტი</p>
+        </div>
       </div>
-      <div className="menu">
-        <ul>
-          <li>პროდუქცია</li>
-          <li>ჩვენს შესახებ</li>
-          <li>აფთიაქები</li>
-        </ul>
-      </div>
-      <div className="login">
-        <img className="shop" alt="shop" src={shopIcone} />
-        <img className="shop" alt="shop" src={heartIcone} />
-        <img className="person" alt="shop" src={personIcone} />
-        <p>კაბინეტი</p>
-      </div>
-    </div>
+    </header>
   );
 };
 

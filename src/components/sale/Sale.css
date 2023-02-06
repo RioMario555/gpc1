@@ -16,7 +16,6 @@
 }
 .list{
     display: flex;
-    margin: 90px;
     justify-content: space-between;
 }
 .items-list{

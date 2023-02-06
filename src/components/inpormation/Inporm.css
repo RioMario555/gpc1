@@ -5,7 +5,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 .inpor{
     width: 1420px;
@@ -23,22 +22,20 @@
 }
 .collec_1{
     display: flex;
-    justify-content: center;
-    margin-top: 70px;
+    justify-content: space-between;
 }
 .images{
-    width: 400px;
+    width: 100%;
     height: 400px;
 }
+.image_ground{
+    width: 32%;
+}
 .text{
-    width: 400px;
+    width: 100%;
     height: 160px;
     display: inline-block;
     background-color: #FAFAFA;
-}
-.image_ground{
-    margin-left: 20px;
-    margin-right: 20px;
 }
 .image_ground h2{
     font-family: "bpg square 38 caps";
@@ -48,8 +45,6 @@
     font-style: normal;
     text-align: left;
     color: #03539c;
-    margin-left: 15px;
-    margin-top: 21px;
 }
 .text_12{
     font-family: "bpg square 38";
@@ -59,6 +54,4 @@
     font-style: normal;
     text-align: left;
     color: #707070;
-    margin-left: 15px;
-    margin-top: 21px;
 }
