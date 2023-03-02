@@ -1,57 +1,72 @@
-.back_inpor{
-    width: 100%;
-    height: 800px;
-    /* background-color: black; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.back_inpor {
+  width: 100%;
+  height: 800px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.inpor{
-    width: 1420px;
-    height: 733px;
-    /* background-color: green; */
+.inpor {
+  width: 1420px;
+  height: 733px;
+  /* background-color: green; */
 }
-.title{
-    font-family: "bpg square 38 caps";
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 20px;
-    font-style: normal;
-    text-align: center;
-    color: #414243;
+.title {
+  font-family: "bpg square 38 caps";
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 100px;
+  color: #414243;
 }
-.collec_1{
-    display: flex;
-    justify-content: space-between;
+.collec_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
 }
-.images{
-    width: 100%;
-    height: 400px;
+.images {
+  width: 100%;
+  height: 400px;
 }
-.image_ground{
-    width: 32%;
+.image_ground {
+  width: 32%;
 }
-.text{
-    width: 100%;
-    height: 160px;
-    display: inline-block;
-    background-color: #FAFAFA;
+.text {
+  width: 100%;
+  height: 160px;
+  display: inline-block;
+  background-color: #fafafa;
 }
-.image_ground h2{
-    font-family: "bpg square 38 caps";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    font-style: normal;
-    text-align: left;
-    color: #03539c;
+.image_ground h2 {
+  font-family: "bpg square 38 caps";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  font-style: normal;
+  text-align: left;
+  color: #03539c;
 }
-.text_12{
-    font-family: "bpg square 38";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    font-style: normal;
-    text-align: left;
-    color: #707070;
+.text_12 {
+  font-family: "bpg square 38";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #707070;
+}
+.line_gray {
+  width: 1420px;
+  height: 10px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #ebeff3;
+  margin-top: 20px;
+}
+.line_blue {
+  width: 303px;
+  height: 10px;
+  background-color: #3bacdc;
+  border-radius: 10px;
 }

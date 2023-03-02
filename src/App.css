@@ -1,5 +1,6 @@
+@import url("./reset.css");
 main {
-    width: 89%;
-    max-width: 1420px;
-    margin: 0 auto;
+  width: 89%;
+  max-width: 1420px;
+  margin: 0 auto;
 }
