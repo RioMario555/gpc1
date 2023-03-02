@@ -1,6 +1,7 @@
 .footer {
   width: 100%;
   height: 488px;
+  margin-top: 80px;
 }
 .footer_left {
   display: flex;
