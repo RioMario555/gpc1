@@ -1,79 +1,83 @@
-.line{
-    display: flex;
-    justify-content: space-around;
+.line {
+  display: flex;
+  justify-content: space-around;
 }
-.background{
-    background-color: #fafafa;
-    width: 340px;
-    height: 160px;
+.background {
+  background-color: #fafafa;
+  width: 331px;
+  height: 160px;
 }
-.about{
-    width: 30%;
+.about {
+  width: 30%;
 }
-.sale__1{
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
+.shamp {
+  width: 340px;
+  height: auto;
+}
+.sale__1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 .sale_1_right {
-    display: flex;
+  display: flex;
 }
-.blue{
-    color: #1db3f3;
+.blue {
+  color: #1db3f3;
 }
-.gray_1{
-    color: #707070;
+.gray_1 {
+  color: #707070;
 }
-.gray{
-    color: #707070;
+.gray {
+  color: #707070;
 }
-.sell p{
-    width: 301px;
-    height: 30px;
+.sell p {
+  width: 301px;
+  height: 30px;
 }
 .sale {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .sale p {
-    margin: 0;
+  margin: 0;
 }
-.price{
-    color: #1DB3F3;
-    font-size: 24px;
+.price {
+  color: #1db3f3;
+  font-size: 24px;
 }
-.sale_price{
-    font-size: 14px;
-    text-decoration: line-through;
-    color: #707070;
+.sale_price {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: #707070;
 }
-.pass{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.pass {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.click{
-    width: 110px;
-    height: 40px;
-    background-color: #1db3f3;
-    border: 0px;
-    border-radius: 4px;
-    cursor: pointer;
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.click {
+  width: 110px;
+  height: 40px;
+  background-color: #1db3f3;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.buy_1{
-    font-family: "bpg square 38";
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    color: #ffffff;
-    width: 55%;
+.buy_1 {
+  font-family: "bpg square 38";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  width: 55%;
 }
 .bag {
-    width: 45px;
-    height: 24px;
+  width: 45px;
+  height: 24px;
 }
